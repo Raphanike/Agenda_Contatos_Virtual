@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+header{
+    background-color:rgb(81, 89, 97)
+}
+header h1{
+    text-align: center;
+    color:black
+    height: 58px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Skranji', cursive;
+}
+header h4{
+    color:orange
+    height: 10px;
+    padding-inline: 8px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Skranji', cursive;
+}
+header img{
+    display: inline;
+    text-align: right;
+    height: 35px;
+    padding: 5px;
+    padding-bottom: 4px;
+}
+header li {
+    text-align: center;
+    display: inline;
+    text-align: center;
+    padding-left: 180px;
+    padding-bottom: 9px;
+    text-decoration: none;
+    
+}
+header li a{
+    color: rgb(194, 158, 15);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Skranji', cursive;
+    text-decoration: none;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+section h2{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+    height: 20px;
+    background-color: black;
+    color: darkorange;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Skranji', cursive;
+}
+section img{
+    height: 600px;
+    padding-top: 0px;
+    padding-right: 18px;
+}
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .container{
+    align-items: flex-start;
+}
+section img{
+    height: 400px;
+    width: 700px;
+}
+form input,form textarea,form button{
+    display: block;
+    width: 350px;
+    margin-bottom: 10px;
+    padding: 8px;
+    padding-left: 20px;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Skranji', cursive;
+}
+form textarea{
+    resize: none;
+    height: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Skranji', cursive;
+}
+form button{
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    color:aliceblue
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Skranji', cursive;
+
+}
+form button:hover{
+    background-color:dimgray
+}
+section h3{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Skranji', cursive;
+}
+section p {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Skranji', cursive;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 13px;
+}
