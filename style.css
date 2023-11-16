@@ -1,0 +1,22 @@
+h1{
+    background-color: cornflowerblue;
+    size: 20px;
+    color: beige;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    display: block;
+}
+
+form input{
+    text-align: center;
+    justify-content: space-between;
+    
+} 
+form input button{
+    height: 1000px
+}
