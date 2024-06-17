@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    height: 100%;
+    margin: 0  auto;
+    display: flexbox;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    text-align: center;
+    background-color: rgba(205, 205, 222, 0.544);
+    border-radius: 1%;
+}
+    
+header img {
+    height: 80px;
+    padding-bottom: 10px;
+    
+}
+header h1{
+    width: 100%;
+    color: blue;
+    padding-left: 40px;
+}    
+header li {
+    display: inline-flex;
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+li {
+    display: inline-block;
+    padding-bottom: 10px;
+    
+} 
+section{
+    display: flex;
+    padding-top: 30px;
+}
+section img{
+    height: 300px;
+    padding-bottom: 30px;
+}
+section h2 {
+    border-left:  20px;
+    background-color: rgba(205, 205, 222, 0.544);
+    color: blue;
+}
+section p{
+    padding-left: 40px;
+}
+h2{
+    padding-left: 40px;
+}
+.produtos{
+    display: flex;
+}
+.produtos img{
+    height: 200px;
+    padding-top: 30px;
+}
+.produtos h2{
+    padding-bottom: 8px;
+}
+.produtos h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+button{
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    height: 20px;
+    text-decoration: solid;
+}
+.hip{
+    color: blue;
+
+
+}
+.hip{
+    background-color: rgba(205, 205, 222, 0.544);
+}
+
